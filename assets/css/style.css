@@ -1,11 +1,14 @@
 .navbar{
-    min-height: 46px;
+    height: 46px;
     position: fixed;
     top: 0px;
     left: 0;
     right: 0;
     z-index: 1;
     background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar__list{
@@ -25,8 +28,16 @@
     color: #fff;
 }
 
+.navbar__search{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 9px 24px 8px 24px;
+}
 
-
+.navbar__search:hover{
+    background-color: #f44336;
+}
 
 .container{
     

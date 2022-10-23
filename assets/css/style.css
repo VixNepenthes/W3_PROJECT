@@ -1,0 +1,33 @@
+.navbar{
+    min-height: 46px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #000;
+}
+
+.navbar__list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar__item-link{
+    padding: 12px 24px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.6rem;
+}
+.navbar__more-icon{
+    color: #fff;
+}
+
+
+
+
+.container{
+    
+}

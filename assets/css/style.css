@@ -24,8 +24,34 @@
     text-decoration: none;
     line-height: 1.6rem;
 }
+.navbar__item-more{
+    position: relative;
+}
 .navbar__more-icon{
     color: #fff;
+}
+
+.navbar__droplist{
+    display: none;
+    position: absolute;
+    top: 90%;
+    right: 0;
+    background-color: #fff;
+    list-style: none;
+}
+
+.navbar__item-more:hover .navbar__droplist{
+    display: block;
+}
+.droplist__item-link{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.droplist__item-link:hover{
+    background-color: rgb(228, 228, 228);
 }
 
 .navbar__search{
@@ -40,5 +66,5 @@
 }
 
 .container{
-    
+    width: 100%;
 }

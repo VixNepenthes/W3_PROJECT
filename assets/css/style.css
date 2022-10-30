@@ -118,3 +118,49 @@
   font-size: 0.6rem;
   text-align: justify;
 }
+.Team{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.Member{
+    flex: 1;
+}
+.Member__Name{
+    font-size: 0.6rem;
+    font-weight: 300;
+}
+.Member__Img{
+    margin-top: 20px;
+    height: 152px;
+    width: 152px;
+    object-fit: cover;
+}
+.Tour{
+    margin: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+#Tour{
+    background-color: #000;
+    color: #fff;
+}
+.Tour__Title{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.Tour__SubTitle{
+    font-size: 0.5rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.Tour__Date{
+    width: 100%;
+    list-style: none;
+    text-align: start;
+}
+.Date__Item{
+    background-color: #fff;
+    color: #000;
+    t
+}

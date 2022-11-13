@@ -74,6 +74,7 @@
   width: 100%;
 }
 .Slider {
+  position: relative;
   width: 100%;
   margin-top: 46px;
 }
@@ -93,14 +94,16 @@
   font-size: 1.4rem;
 }
 .Section {
+  width: 100%;
+}
+.Band {
+  margin: 10px;
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   padding: 64px 0;
   text-align: center;
-}
-.Band {
-  margin: 10px;
+  min-height: 50vh;
 }
 .Band__Title {
   font-size: 1.2rem;
@@ -136,16 +139,24 @@
     width: 152px;
     object-fit: cover;
 }
-.Tour{
-    margin: 10px;
-    background-color: #000;
-    color: #fff;
+
+.Section.Tour {
+  background-color: #000;
+
+}
+.tourContent{
+  margin: 10px;
+  color: #fff;
+  margin: 10px;
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+padding: 64px 0;
+text-align: center;
+min-height: 50vh;
 }
 
-#Tour{
-    background-color: #000;
-    color: #fff;
-}
+
 .Tour__Title{
     font-size: 1.2rem;
     font-weight: 400;
@@ -162,5 +173,131 @@
 .Date__Item{
     background-color: #fff;
     color: #000;
-    t
+    border-bottom: 1px solid #ccc;
+    line-height: 1.6rem;
+    padding: 0 10px;
+}
+.soldOutBanner{
+  background-color: #f44336;
+  color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Tour_Place{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 8px;
+  flex-wrap: wrap;
+}
+
+.PlaceItem{
+  flex: 1;
+background-color: #fff;
+color: #000;
+text-align: start;
+margin: 0 8px;
+}
+.PlaceImg{
+  width: 100%;
+  vertical-align: middle;
+
+}
+.PlaceContent{
+  padding: 14px 14px;
+
+}
+.PlaceTime{
+  margin: 10px 0;
+  font-size: 0.5rem;
+  opacity: 0.8;
+}
+.PlaceDesc{
+  font-size: 0.5rem;
+  margin-bottom: 10px;
+}
+.PlaceBtn{
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+}
+.Contact{
+  color: #000;
+
+}
+
+.ContactContent{
+  margin: 10px;
+  margin: 10px;
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+padding: 64px 0;
+text-align: center;
+min-height: 50vh;
+}
+
+.Contact__Title{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+    
+.Contact__SubTitle{
+  font-size: 0.5rem;
+  color: rgba(47, 46, 46, 0.5);
+}
+
+.ContactInfomation{
+  display: flex;
+  padding: 32px 0;
+}
+.Info{
+  flex: 1;
+}
+.location{
+  display: flex;
+  margin-bottom: 10px;
+}
+.phone{
+  display: flex;
+  margin-bottom: 10px;
+
+}
+.mail{
+  display: flex;
+}
+
+.ContactIcon{
+  padding:0 8px;
+}
+.DescContact{
+  margin-left: 10px;
+}
+
+.FormContact{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.Input{
+  display: flex;
+  margin-bottom: 10px;
+}
+.InputName{
+  padding: 0 8px;
+  flex: 1;
+}
+.InputMail{
+  flex: 1;
+  padding: 0 8px;
+}
+.InputMessage{
+  flex: 1;
+  padding: 0 8px;
+}
+.InputContent{
+  padding: 8px;
+  flex: 1;
+  width: 100%;
 }
